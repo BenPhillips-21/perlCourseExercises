@@ -1,0 +1,10 @@
+This is a sample of footnoted text[0].  It has quite a few footnotes[1],
+but not as many as it might have.  The actual footnotes aren't included
+below[2] because that's not part of this[3] exercise.
+
+Speaking of which, did you hear the one about the bald[4] nun[5], the
+left-handed Norwegian and the zebra with no stripes who walked[6] into a
+bar[7]?  The barman[8] said, "This has to be the[9] stupidest[10] joke
+I've ever been in."[11]
+
+
