@@ -1,0 +1,19 @@
+Elvis Presley should match       (1/4).
+Elvis A. Presley should match    (2/4).
+Elvis Aron Presley should match  (3/4).
+Elvis Aaron Presley should match (4/4).
+Elvis should not match.
+ElvisPresley should not match.
+Elvis  Presley should not match.
+Elvis A Presley should not match.
+Elvis AB Presley should not match.
+Elvis Aaaron Presley should not match.
+Elvis Fred Presley should not match.
+Elvis Alba Presley should not match.
+Elvis Aren Presley should not match.
+elvis aaron presley should not match.
+Elvis aaron Presley should not match.
+Elvis A.ron Presley should not match.
+Elvis Abron Presley should not match.
+Elvis Aaron Aron Presley should not match.
+Elvis Aa. Presley should not match.
