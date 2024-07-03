@@ -3,21 +3,23 @@ use v5.10.0;
 use strict;
 use warnings;
 
-BEGIN { require "./MyTest.pl"; }
+use FindBin qw($Bin);
+use lib "$Bin/p5lib";
 
+use MyTest qw(pass fail $PASS_MARK);
 
 sub testRun {
     my ($pass_mark) = @_;
 
-    for (my $i = 0; $i < 10; $i++) {
+    foreach (1..10) {
        my $rand_score = int(rand(100) + 1);
 
        if ($rand_score <= $pass_mark) {
-        say MyTest::fail();
+        say fail();
        } else {
-        say MyTest::pass();
+        say pass();
        }
 }
 }
 
-testRun($MyTest::PASS_MARK);
+testRun($PASS_MARK);
