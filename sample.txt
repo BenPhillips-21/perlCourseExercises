@@ -1,0 +1,3 @@
+i am some sample text
+that wishes to be printed to the terminal
+i am having a great day God bless
